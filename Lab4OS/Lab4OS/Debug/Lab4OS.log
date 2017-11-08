@@ -1,0 +1,55 @@
+﻿  Lab4OS.cpp
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(141): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note:  см. объявление "strcat"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(143): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note:  см. объявление "strcat"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(144): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note:  см. объявление "strcat"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(208): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note:  см. объявление "strcat"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(210): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note:  см. объявление "strcat"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(211): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note:  см. объявление "strcat"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(255): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note:  см. объявление "strcat"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(257): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note:  см. объявление "strcat"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(258): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note:  см. объявление "strcat"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(446): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(389): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note:  см. объявление "scanf"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(472): warning C4477: "printf": в строке форматирования "%#x" требуется аргумент типа "unsigned int", но вариативный аргумент "1" имеет тип "LPVOID"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(472): warning C4474: "printf" : для строки формата передано слишком много аргументов
+  c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(472): note: заполнители и их параметры ожидают переменное число аргументов в количестве 1, но было предоставлено 2
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(473): warning C4477: "printf": в строке форматирования "%#x" требуется аргумент типа "unsigned int", но вариативный аргумент "1" имеет тип "LPVOID"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(473): warning C4474: "printf" : для строки формата передано слишком много аргументов
+  c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(473): note: заполнители и их параметры ожидают переменное число аргументов в количестве 1, но было предоставлено 3
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(482): warning C4473: "printf": передано недостаточно аргументов для строки формата
+  c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(482): note: заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
+  c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(482): note: отсутствующий вариативный аргумент "2" требуется для строки форматирования "%I64d"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(563): warning C4996: 'wscanf': This function or variable may be unsafe. Consider using wscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h(928): note:  см. объявление "wscanf"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(569): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note:  см. объявление "scanf"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(602): warning C4477: "printf": в строке форматирования "%#x" требуется аргумент типа "unsigned int", но вариативный аргумент "1" имеет тип "PVOID"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(612): warning C4018: >=: несоответствие типов со знаком и без знака
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(628): warning C4477: "printf": в строке форматирования "%#x" требуется аргумент типа "unsigned int", но вариативный аргумент "2" имеет тип "PVOID"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(629): warning C4474: "printf" : для строки формата передано слишком много аргументов
+  c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(629): note: заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 3
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(639): warning C4477: "printf": в строке форматирования "%#x" требуется аргумент типа "unsigned int", но вариативный аргумент "2" имеет тип "PVOID"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(655): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstring.h(101): note:  см. объявление "wcscat"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(659): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstring.h(101): note:  см. объявление "wcscat"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(662): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstring.h(101): note:  см. объявление "wcscat"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(663): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstring.h(101): note:  см. объявление "wcscat"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(672): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note:  см. объявление "scanf"
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(732): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alexzander\documents\visual studio 2015\projects\lab4os\lab4os\lab4os.cpp(755): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note:  см. объявление "scanf"
+  Lab4OS.vcxproj -> C:\Users\Alexzander\documents\visual studio 2015\Projects\Lab4OS\Debug\Lab4OS.exe

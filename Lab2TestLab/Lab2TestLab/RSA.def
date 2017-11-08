@@ -1,0 +1,12 @@
+LIBRARY Lab2TestLab
+EXPORTS
+	getKeys  @1  
+	encode   @2  
+	decode   @3  
+	isSimple @4
+	bin_pow @5
+	getChar	@6
+	setConsoleCoding	@7
+	printChar	@8
+	printString @9
+	getString	@10

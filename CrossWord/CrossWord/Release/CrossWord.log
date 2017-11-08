@@ -1,0 +1,22 @@
+﻿  CrossWord.cpp
+CrossWord.cpp(44): warning C4018: >=: несоответствие типов со знаком и без знака
+CrossWord.cpp(59): warning C4018: <: несоответствие типов со знаком и без знака
+CrossWord.cpp(62): warning C4018: <: несоответствие типов со знаком и без знака
+CrossWord.cpp(71): warning C4101: e: неиспользованная локальная переменная
+CrossWord.cpp(94): warning C4018: >=: несоответствие типов со знаком и без знака
+CrossWord.cpp(101): warning C4018: <: несоответствие типов со знаком и без знака
+CrossWord.cpp(104): warning C4018: <: несоответствие типов со знаком и без знака
+CrossWord.cpp(127): warning C4018: <: несоответствие типов со знаком и без знака
+CrossWord.cpp(133): warning C4018: <: несоответствие типов со знаком и без знака
+CrossWord.cpp(135): warning C4018: <: несоответствие типов со знаком и без знака
+CrossWord.cpp(154): warning C4018: <: несоответствие типов со знаком и без знака
+CrossWord.cpp(165): warning C4018: <: несоответствие типов со знаком и без знака
+CrossWord.cpp(181): warning C4018: <: несоответствие типов со знаком и без знака
+CrossWord.cpp(192): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода
+c:\users\alexzander\documents\visual studio 2015\projects\crossword\crossword\crossword.cpp(296): warning C4715: starter: значение возвращается не при всех путях выполнения
+  2 of 699 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    10 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  CrossWord.vcxproj -> C:\Users\Alexzander\documents\visual studio 2015\Projects\CrossWord\Release\CrossWord.exe

@@ -1,0 +1,465 @@
+=============================================
+Excecuting BubbleSort...
+=============================================
+Current array: [1, 2, 34, 55, 1, 2, 5, 66]
+---------------------
+Running from end
+---------------------
+Cursor is above '66'
+Skipping...
+#
+Cursor is above '5'
+Skipping...
+#
+Cursor is above '2'
+Skipping...
+#
+Cursor is above '1'
+Found that '1' is less than '55'. Swapping...
+Current array: [1, 2, 34, 1, 55, 2, 5, 66]
+#
+Cursor is above '1'
+Found that '1' is less than '34'. Swapping...
+Current array: [1, 2, 1, 34, 55, 2, 5, 66]
+#
+Cursor is above '1'
+Found that '1' is less than '2'. Swapping...
+Current array: [1, 1, 2, 34, 55, 2, 5, 66]
+#
+Cursor is above '1'
+Skipping...
+#
+Cursor is above '66'
+Skipping...
+#
+Cursor is above '5'
+Skipping...
+#
+Cursor is above '2'
+Found that '2' is less than '55'. Swapping...
+Current array: [1, 1, 2, 34, 2, 55, 5, 66]
+#
+Cursor is above '2'
+Found that '2' is less than '34'. Swapping...
+Current array: [1, 1, 2, 2, 34, 55, 5, 66]
+#
+Cursor is above '2'
+Skipping...
+#
+Cursor is above '2'
+Skipping...
+#
+Cursor is above '66'
+Skipping...
+#
+Cursor is above '5'
+Found that '5' is less than '55'. Swapping...
+Current array: [1, 1, 2, 2, 34, 5, 55, 66]
+#
+Cursor is above '5'
+Found that '5' is less than '34'. Swapping...
+Current array: [1, 1, 2, 2, 5, 34, 55, 66]
+#
+Cursor is above '5'
+Skipping...
+#
+Cursor is above '2'
+Skipping...
+#
+Cursor is above '66'
+Skipping...
+#
+Cursor is above '55'
+Skipping...
+#
+Cursor is above '34'
+Skipping...
+#
+Cursor is above '5'
+Skipping...
+#
+Cursor is above '66'
+Skipping...
+#
+Cursor is above '55'
+Skipping...
+#
+Cursor is above '34'
+Skipping...
+#
+Cursor is above '66'
+Skipping...
+#
+Cursor is above '55'
+Skipping...
+#
+Cursor is above '66'
+Skipping...
+#
+############
+BubbleSort was successfully done : 3436 ms
+=============================================
+Excecuting MergeSort...
+=============================================
+Current array: [96, 29, 49, 70, 92, 37, 50, 68, 59]
+-----------------------------------------------------
+'92' was selected as pivot in range 0:8. Array splits into [96, 29, 49, 70, 92] and [37, 50, 68, 59]
+#
+'49' was selected as pivot in range 0:4. Array splits into [96, 29, 49] and [70, 92]
+#
+'29' was selected as pivot in range 0:2. Array splits into [96, 29] and [49]
+#
+'96' was selected as pivot in range 0:1. Array splits into [96] and [29]
+#
+'96' was selected as pivot in range 0:1. Array splits into [96] and [29]
+#
+----------------------------------------
+Start merging...
+----------------------------------------
+Creating temporary sorted list for elements...
+#######################################
+Comparing '96' with '29'
+'29' was chosen as next element
+Current list: [29]
+Pushing rest elements to list...
+Current list: [29, 96]
+Merging sorted list with main array...
+Before: [96, 29, 49, 70, 92, 37, 50, 68, 59]
+After: [29, 96, 49, 70, 92, 37, 50, 68, 59]
+######################################
+'29' was selected as pivot in range 0:2. Array splits into [96, 29] and [49]
+#
+----------------------------------------
+Start merging...
+----------------------------------------
+Creating temporary sorted list for elements...
+#######################################
+Comparing '29' with '49'
+'29' was chosen as next element
+Current list: [29]
+Comparing '96' with '49'
+'49' was chosen as next element
+Current list: [29, 49]
+Pushing rest elements to list...
+Current list: [29, 49, 96]
+Merging sorted list with main array...
+Before: [29, 96, 49, 70, 92, 37, 50, 68, 59]
+After: [29, 49, 96, 70, 92, 37, 50, 68, 59]
+######################################
+'70' was selected as pivot in range 3:4. Array splits into [70] and [92]
+#
+'70' was selected as pivot in range 3:4. Array splits into [70] and [92]
+#
+----------------------------------------
+Start merging...
+----------------------------------------
+Creating temporary sorted list for elements...
+#######################################
+Comparing '70' with '92'
+'70' was chosen as next element
+Current list: [70]
+Pushing rest elements to list...
+Current list: [70, 92]
+Merging sorted list with main array...
+Before: [29, 49, 96, 70, 92, 37, 50, 68, 59]
+After: [29, 49, 96, 70, 92, 37, 50, 68, 59]
+######################################
+'49' was selected as pivot in range 0:4. Array splits into [96, 29, 49] and [70, 92]
+#
+----------------------------------------
+Start merging...
+----------------------------------------
+Creating temporary sorted list for elements...
+#######################################
+Comparing '29' with '70'
+'29' was chosen as next element
+Current list: [29]
+Comparing '49' with '70'
+'49' was chosen as next element
+Current list: [29, 49]
+Comparing '96' with '70'
+'70' was chosen as next element
+Current list: [29, 49, 70]
+Comparing '96' with '92'
+'92' was chosen as next element
+Current list: [29, 49, 70, 92]
+Pushing rest elements to list...
+Current list: [29, 49, 70, 92, 96]
+Merging sorted list with main array...
+Before: [29, 49, 96, 70, 92, 37, 50, 68, 59]
+After: [29, 49, 70, 92, 96, 37, 50, 68, 59]
+######################################
+'50' was selected as pivot in range 5:8. Array splits into [37, 50] and [68, 59]
+#
+'37' was selected as pivot in range 5:6. Array splits into [37] and [50]
+#
+'37' was selected as pivot in range 5:6. Array splits into [37] and [50]
+#
+----------------------------------------
+Start merging...
+----------------------------------------
+Creating temporary sorted list for elements...
+#######################################
+Comparing '37' with '50'
+'37' was chosen as next element
+Current list: [37]
+Pushing rest elements to list...
+Current list: [37, 50]
+Merging sorted list with main array...
+Before: [29, 49, 70, 92, 96, 37, 50, 68, 59]
+After: [29, 49, 70, 92, 96, 37, 50, 68, 59]
+######################################
+'68' was selected as pivot in range 7:8. Array splits into [68] and [59]
+#
+'68' was selected as pivot in range 7:8. Array splits into [68] and [59]
+#
+----------------------------------------
+Start merging...
+----------------------------------------
+Creating temporary sorted list for elements...
+#######################################
+Comparing '68' with '59'
+'59' was chosen as next element
+Current list: [59]
+Pushing rest elements to list...
+Current list: [59, 68]
+Merging sorted list with main array...
+Before: [29, 49, 70, 92, 96, 37, 50, 68, 59]
+After: [29, 49, 70, 92, 96, 37, 50, 59, 68]
+######################################
+'50' was selected as pivot in range 5:8. Array splits into [37, 50] and [68, 59]
+#
+----------------------------------------
+Start merging...
+----------------------------------------
+Creating temporary sorted list for elements...
+#######################################
+Comparing '37' with '59'
+'37' was chosen as next element
+Current list: [37]
+Comparing '50' with '59'
+'50' was chosen as next element
+Current list: [37, 50]
+Pushing rest elements to list...
+Pushing rest elements to list...
+Current list: [37, 50, 59, 68]
+Merging sorted list with main array...
+Before: [29, 49, 70, 92, 96, 37, 50, 59, 68]
+After: [29, 49, 70, 92, 96, 37, 50, 59, 68]
+######################################
+'92' was selected as pivot in range 0:8. Array splits into [96, 29, 49, 70, 92] and [37, 50, 68, 59]
+#
+----------------------------------------
+Start merging...
+----------------------------------------
+Creating temporary sorted list for elements...
+#######################################
+Comparing '29' with '37'
+'29' was chosen as next element
+Current list: [29]
+Comparing '49' with '37'
+'37' was chosen as next element
+Current list: [29, 37]
+Comparing '49' with '50'
+'49' was chosen as next element
+Current list: [29, 37, 49]
+Comparing '70' with '50'
+'50' was chosen as next element
+Current list: [29, 37, 49, 50]
+Comparing '70' with '59'
+'59' was chosen as next element
+Current list: [29, 37, 49, 50, 59]
+Comparing '70' with '68'
+'68' was chosen as next element
+Current list: [29, 37, 49, 50, 59, 68]
+Pushing rest elements to list...
+Pushing rest elements to list...
+Pushing rest elements to list...
+Current list: [29, 37, 49, 50, 59, 68, 70, 92, 96]
+Merging sorted list with main array...
+Before: [29, 49, 70, 92, 96, 37, 50, 59, 68]
+After: [29, 37, 49, 50, 59, 68, 70, 92, 96]
+######################################
+MergeSort was successfully done : 24166 ms
+=============================================
+Excecuting InsertionSort...
+=============================================
+Current array: [23, 33, 24, 67, 44, 40, 63, 9, 51]
+-----------------------------------------------------
+'33' was chosen
+Current array: [23, 33, 24, 67, 44, 40, 63, 9, 51]
+Element was inserted at '1'
+Current array: [23, 33, 24, 67, 44, 40, 63, 9, 51]
+-----------------------------------------------
+'24' was chosen
+Current array: [23, 33, 24, 67, 44, 40, 63, 9, 51]
+Element was inserted at '1'
+Current array: [23, 24, 33, 67, 44, 40, 63, 9, 51]
+-----------------------------------------------
+'67' was chosen
+Current array: [23, 24, 33, 67, 44, 40, 63, 9, 51]
+Element was inserted at '3'
+Current array: [23, 24, 33, 67, 44, 40, 63, 9, 51]
+-----------------------------------------------
+'44' was chosen
+Current array: [23, 24, 33, 67, 44, 40, 63, 9, 51]
+Element was inserted at '3'
+Current array: [23, 24, 33, 44, 67, 40, 63, 9, 51]
+-----------------------------------------------
+'40' was chosen
+Current array: [23, 24, 33, 44, 67, 40, 63, 9, 51]
+Element was inserted at '3'
+Current array: [23, 24, 33, 40, 44, 67, 63, 9, 51]
+-----------------------------------------------
+'63' was chosen
+Current array: [23, 24, 33, 40, 44, 67, 63, 9, 51]
+Element was inserted at '5'
+Current array: [23, 24, 33, 40, 44, 63, 67, 9, 51]
+-----------------------------------------------
+'9' was chosen
+Current array: [23, 24, 33, 40, 44, 63, 67, 9, 51]
+Element was inserted at '0'
+Current array: [9, 23, 24, 33, 40, 44, 63, 67, 51]
+-----------------------------------------------
+'51' was chosen
+Current array: [9, 23, 24, 33, 40, 44, 63, 67, 51]
+Element was inserted at '6'
+Current array: [9, 23, 24, 33, 40, 44, 51, 63, 67]
+-----------------------------------------------
+InsertionSort was successfully done : 7999 ms
+=============================================
+Excecuting QuickSort...
+=============================================
+Current array: [95, 22, 20, 72, 89, 92, 1, 45, 58]
+-----------------------------------------------------
+Pivot element was selected at position '4'
+Greater element was found at position '0'
+Less element was found at position '8'
+Swapping into sections...
+Current array: [58, 22, 20, 72, 89, 92, 1, 45, 95]
+Greater element was found at position '4'
+Less element was found at position '7'
+Swapping into sections...
+Current array: [58, 22, 20, 72, 45, 92, 1, 89, 95]
+Greater element was found at position '5'
+Less element was found at position '7'
+Swapping into sections...
+Current array: [58, 22, 20, 72, 45, 89, 1, 92, 95]
+Greater element was found at position '5'
+Less element was found at position '6'
+Swapping into sections...
+Current array: [58, 22, 20, 72, 45, 1, 89, 92, 95]
+Greater element was found at position '6'
+Less element was found at position '6'
+Array splits into [58, 22, 20, 72, 45, 1, 89] and [92, 95]
+--------------------------------------------------------------------------------------------------
+Pivot element was selected at position '3'
+Greater element was found at position '3'
+Less element was found at position '5'
+Swapping into sections...
+Current array: [58, 22, 20, 1, 45, 72, 89]
+Greater element was found at position '5'
+Less element was found at position '5'
+Array splits into [58, 22, 20, 1, 45, 72] and [89]
+--------------------------------------------------------------------------------------------------
+Pivot element was selected at position '2'
+Greater element was found at position '0'
+Less element was found at position '3'
+Swapping into sections...
+Current array: [1, 22, 20, 58, 45, 72]
+Greater element was found at position '1'
+Less element was found at position '2'
+Swapping into sections...
+Current array: [1, 20, 22, 58, 45, 72]
+Greater element was found at position '1'
+Less element was found at position '1'
+Array splits into [1, 20] and [22, 58, 45, 72]
+--------------------------------------------------------------------------------------------------
+Pivot element was selected at position '0'
+Greater element was found at position '0'
+Less element was found at position '0'
+Array splits into [1] and [20]
+--------------------------------------------------------------------------------------------------
+Pivot element was selected at position '3'
+Greater element was found at position '3'
+Less element was found at position '4'
+Swapping into sections...
+Current array: [22, 45, 58, 72]
+Greater element was found at position '4'
+Less element was found at position '4'
+Array splits into [22, 45, 58] and [72]
+--------------------------------------------------------------------------------------------------
+Pivot element was selected at position '3'
+Greater element was found at position '3'
+Less element was found at position '3'
+Array splits into [22, 45] and [58]
+--------------------------------------------------------------------------------------------------
+Pivot element was selected at position '2'
+Greater element was found at position '2'
+Less element was found at position '2'
+Array splits into [22] and [45]
+--------------------------------------------------------------------------------------------------
+Pivot element was selected at position '7'
+Greater element was found at position '7'
+Less element was found at position '7'
+Array splits into [92] and [95]
+--------------------------------------------------------------------------------------------------
+Result array: [1, 20, 22, 45, 58, 72, 89, 92, 95]
+-----------------------------------------------------
+QuickSort was successfully done : 5043 ms
+=============================================
+Excecuting SelectionSort...
+=============================================
+Current array: [41, 59, 74, 78, 53, 30, 40, 31, 45]
+-----------------------------------------------------
+'41' was selected for sorting
+'30' element for swap
+Current array: [30, 59, 74, 78, 53, 41, 40, 31, 45]
+-----------------------------------------------
+'59' was selected for sorting
+'31' element for swap
+Current array: [30, 31, 74, 78, 53, 41, 40, 59, 45]
+-----------------------------------------------
+'74' was selected for sorting
+'40' element for swap
+Current array: [30, 31, 40, 78, 53, 41, 74, 59, 45]
+-----------------------------------------------
+'78' was selected for sorting
+'41' element for swap
+Current array: [30, 31, 40, 41, 53, 78, 74, 59, 45]
+-----------------------------------------------
+'53' was selected for sorting
+'45' element for swap
+Current array: [30, 31, 40, 41, 45, 78, 74, 59, 53]
+-----------------------------------------------
+'78' was selected for sorting
+'53' element for swap
+Current array: [30, 31, 40, 41, 45, 53, 74, 59, 78]
+-----------------------------------------------
+'74' was selected for sorting
+'59' element for swap
+Current array: [30, 31, 40, 41, 45, 53, 59, 74, 78]
+-----------------------------------------------
+'74' was selected for sorting
+'74' element for swap
+Current array: [30, 31, 40, 41, 45, 53, 59, 74, 78]
+-----------------------------------------------
+SelectionSort was successfully done : 8703 ms
+=============================================
+Excecuting CombSort...
+=============================================
+Current array: [12, 3, 11, 3, 9, 14, 12, 11, 17]
+-----------------------------------------------------
+Gap beetween elements is: '8'
+Checking elements at '0' and '8'...
+Gap was reduced by dividing on factor value
+----------------------------------------------
+Gap beetween elements is: '6'
+Checking elements at '0' and '6'...
+Checking elements at '1' and '7'...
+Checking elements at '2' and '8'...
+Gap was reduced by dividing on factor value
+----------------------------------------------
+Gap beetween elements is: '4'
+Checking elements at '0' and '4'...
+First element was

@@ -1,0 +1,3 @@
+﻿  TESTIO.cpp
+TESTIO.obj : error LNK2001: неразрешенный внешний символ ""char __cdecl abcde(void)" (?abcde@@YADXZ)"
+C:\Users\Alexzander\documents\visual studio 2015\Projects\Lab2TestLab\Release\TESTIO.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

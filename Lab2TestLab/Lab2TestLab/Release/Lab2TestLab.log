@@ -1,0 +1,9 @@
+﻿  RSA.cpp
+RSA.cpp(48): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     Создается библиотека C:\Users\Alexzander\documents\visual studio 2015\Projects\Lab2TestLab\Release\Lab2TestLab.lib и объект C:\Users\Alexzander\documents\visual studio 2015\Projects\Lab2TestLab\Release\Lab2TestLab.exp
+  Создание кода
+  0 of 119 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Lab2TestLab.vcxproj -> C:\Users\Alexzander\documents\visual studio 2015\Projects\Lab2TestLab\Release\Lab2TestLab.dll

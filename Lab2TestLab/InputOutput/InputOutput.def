@@ -1,0 +1,3 @@
+LIBRARY InputOutput	
+EXPORTS
+	getConsoleChar	@1

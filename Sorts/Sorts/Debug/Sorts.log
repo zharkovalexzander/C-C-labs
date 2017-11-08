@@ -1,0 +1,4 @@
+﻿  Sorts.cpp
+c:\users\alexzander\documents\visual studio 2015\projects\sorts\sorts\sorts.cpp(335): warning C4244: /=: преобразование "const double" в "int", возможна потеря данных
+c:\users\alexzander\documents\visual studio 2015\projects\sorts\sorts\sorts.cpp(431): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Sorts.vcxproj -> C:\Users\Alexzander\documents\visual studio 2015\Projects\Sorts\Debug\Sorts.exe

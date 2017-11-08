@@ -1,0 +1,8 @@
+﻿  dllmain.cpp
+  stdafx.cpp
+  RSA.cpp
+  Lab2TestLab.cpp
+  Создание кода...
+     Создается библиотека c:\users\alexzander\documents\visual studio 2015\Projects\Lab2TestLab\Debug\Lab2TestLab.lib и объект c:\users\alexzander\documents\visual studio 2015\Projects\Lab2TestLab\Debug\Lab2TestLab.exp
+Lab2TestLab.exp : warning LNK4070: директива /OUT:RSA.dll в .EXP отличается от имени выходного файла "c:\users\alexzander\documents\visual studio 2015\Projects\Lab2TestLab\Debug\Lab2TestLab.dll"; директива игнорируется
+  Lab2TestLab.vcxproj -> c:\users\alexzander\documents\visual studio 2015\Projects\Lab2TestLab\Debug\Lab2TestLab.dll

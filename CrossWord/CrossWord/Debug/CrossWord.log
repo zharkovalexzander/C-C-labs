@@ -1,0 +1,18 @@
+﻿  CrossWord.cpp
+c:\users\alexzander\documents\visual studio 2015\projects\crossword\crossword\crossword.cpp(48): warning C4018: >=: несоответствие типов со знаком и без знака
+c:\users\alexzander\documents\visual studio 2015\projects\crossword\crossword\crossword.cpp(65): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alexzander\documents\visual studio 2015\projects\crossword\crossword\crossword.cpp(69): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alexzander\documents\visual studio 2015\projects\crossword\crossword\crossword.cpp(79): warning C4101: e: неиспользованная локальная переменная
+c:\users\alexzander\documents\visual studio 2015\projects\crossword\crossword\crossword.cpp(102): warning C4018: >: несоответствие типов со знаком и без знака
+c:\users\alexzander\documents\visual studio 2015\projects\crossword\crossword\crossword.cpp(110): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alexzander\documents\visual studio 2015\projects\crossword\crossword\crossword.cpp(115): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alexzander\documents\visual studio 2015\projects\crossword\crossword\crossword.cpp(141): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alexzander\documents\visual studio 2015\projects\crossword\crossword\crossword.cpp(148): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alexzander\documents\visual studio 2015\projects\crossword\crossword\crossword.cpp(150): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alexzander\documents\visual studio 2015\projects\crossword\crossword\crossword.cpp(170): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alexzander\documents\visual studio 2015\projects\crossword\crossword\crossword.cpp(175): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alexzander\documents\visual studio 2015\projects\crossword\crossword\crossword.cpp(189): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alexzander\documents\visual studio 2015\projects\crossword\crossword\crossword.cpp(205): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alexzander\documents\visual studio 2015\projects\crossword\crossword\crossword.cpp(218): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alexzander\documents\visual studio 2015\projects\crossword\crossword\crossword.cpp(339): warning C4715: starter: значение возвращается не при всех путях выполнения
+  CrossWord.vcxproj -> C:\Users\Alexzander\documents\visual studio 2015\Projects\CrossWord\Debug\CrossWord.exe
